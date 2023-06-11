@@ -1,0 +1,549 @@
+/* *************************************************************************************************
+                       THIS CSS FILE INCLUDES*
+
+===================== BACKGROUND PICTURE STYLING =======================
+===================== MAIN TEXTS & LINKS STYLING =======================
+===================== FORM & INPUT FIELDS STYLING ======================
+===================== BUTTON & TRADEMARK STYLING =======================
+
+
+**************************************************************************************************/
+
+/* **************************************************************************************************
+===================== IMPORTED FONTS FROM GOOGLE FONTS =======================
+************************************************************************************************** */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Syne&display=swap");
+
+/* **************************************************************************************************
+                ===================== BODY STYLING =======================
+************************************************************************************************** */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+  overflow-x: hidden !important;
+}
+/* **************************************************************************************************
+            ===================== MAIN BACKGROUND STYLING =======================
+************************************************************************************************** */
+
+.form-bg {
+  background-image: url("../../Images/form-bg.webp");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* **************************************************************************************************
+===================== LEFT SIDE REGISTER NOW AND LINKS, TEXT AND LOGO STYLING =======================
+************************************************************************************************** */
+
+.form-bg .text-register {
+  font-size: 3.4rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.stepupits-Logo {
+  width: 40%;
+}
+
+.text-line {
+  position: fixed !important;
+  left: 14%;
+  top: 25%;
+}
+
+.form-bg .text-register2 {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.form-bg .text-register2 span {
+  color: #00a8db;
+}
+.share {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  transition: 0.4s ease-in-out;
+  margin-top: 20px;
+}
+
+.btn1 {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.4s all;
+}
+
+.btn1 img {
+  height: 1.5rem;
+  margin-top: 0.1em;
+}
+
+.btn1 .tooltiptext1 {
+  visibility: hidden;
+  width: 8em;
+  height: 8em;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1em;
+  position: absolute;
+  left: -2.5em;
+  bottom: -12em;
+  z-index: 1;
+  transition: 0.1s ease-in-out;
+}
+
+.btn1:hover .tooltiptext1 {
+  transform: translateY(-1em);
+  visibility: visible;
+}
+
+.btn1:hover {
+  background: rgb(255, 93, 93);
+}
+
+.btn1:hover img {
+  fill: white;
+}
+
+.btn2 {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.4s all;
+}
+
+.btn2 img {
+  height: 1.7rem;
+}
+
+.btn2 .tooltiptext2 {
+  visibility: hidden;
+  width: 29rem;
+  height: 6rem;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1em;
+  position: absolute;
+  left: -13rem;
+  bottom: -8em;
+  z-index: 1;
+  transition: 0.1s ease-in-out;
+}
+
+.btn2:hover .tooltiptext2 {
+  transform: translateY(-1em);
+  visibility: visible;
+}
+
+.btn2:hover {
+  background-color: #1eadff;
+}
+
+.btn2:hover img {
+  fill: white;
+}
+
+.btn3 {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.4s all;
+}
+
+.btn3 img {
+  width: 1.7em;
+}
+
+.btn3 .tooltiptext3 {
+  visibility: hidden;
+  width: 18em;
+  height: 14em;
+  color: black;
+  text-align: center;
+  background-color: whitesmoke;
+  position: absolute;
+  left: -7em;
+  bottom: -16em;
+  z-index: 1;
+  transition: 0.1s ease-in-out;
+}
+
+.btn3 .tooltiptext3 .WA-bg {
+  background-image: url("/Images/social-icos/WA-bg.png");
+  background-size: cover;
+  height: 110px;
+}
+.btn3 .tooltiptext3 .WA-bg img {
+  width: 5em;
+  border-radius: 50%;
+  border: 2px solid #00abb1;
+  position: absolute;
+  right: 36%;
+  top: 28%;
+}
+.btn3 .tooltiptext3 .WA-bg p {
+  position: absolute;
+  left: 22%;
+  bottom: 18%;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+.btn3 .tooltiptext3 .WA-bg a {
+  position: absolute;
+  left: 31%;
+  bottom: 5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  padding: 7px;
+}
+
+.btn3 .tooltiptext3 .WA-embed img {
+  width: 80px;
+  border: 2px solid #008f30;
+  border-radius: 50%;
+}
+
+.btn3:hover .tooltiptext3 {
+  transform: translateY(-1em);
+  visibility: visible;
+}
+
+.btn3:hover {
+  background-color: #25d366;
+}
+
+.btn3:hover img {
+  fill: whitesmoke;
+}
+
+/* **************************************************************************************************
+        =============================== INPUT BOXES STYLING ===============================
+************************************************************************************************** */
+
+input {
+  transition: all 0.2s linear !important;
+}
+
+input:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #444444 !important;
+  color: #00a8db !important;
+}
+
+.form-bg form {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.form-bg .beside-left {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group label {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  padding: 0 5px;
+  background-color: #00a8db;
+  color: white;
+  font-size: 12px;
+  line-height: 1;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+.input-group input[type="text"]:focus + label {
+  top: -11px;
+  background-color: #444444;
+  color: white;
+}
+.input-group input[type="text"]::placeholder {
+  font-size: 12px;
+}
+.input-group input[type="email"]::placeholder {
+  font-size: 12px;
+}
+
+.input-group input[type="email"]:focus + label {
+  top: -11px;
+  background-color: #444444;
+  color: white;
+}
+.input-group input[type="tel"]::placeholder {
+  font-size: 12px;
+}
+
+.input-group input[type="tel"]:focus + label {
+  top: -11px;
+  background-color: #444444;
+  color: white;
+}
+.input-group input[type="tel"]::placeholder {
+  font-size: 12px;
+}
+
+.custom-height {
+  height: 2.5rem !important;
+}
+
+
+/* **************************************************************************************************
+===============================DATE & TIME INPUT BOX STYLING/ FLATPICKER ===============================
+************************************************************************************************** */
+
+.flatpickr-input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.flatpickr-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.flatpickr-calendar {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.flatpickr-day.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.flatpickr-time {
+  outline: none !important;
+  border: none !important;
+  font-size: 1.1em;
+}
+
+/* **************************************************************************************************
+=============================== RESGISTER NOW BUTTON STYLING ===============================
+************************************************************************************************** */
+
+.register-button {
+ background-color: #00a8db;
+ border: 1px solid #00a8db;
+ padding: 7px 14px;
+ border-radius: 7px;
+ width: 40%;
+ transition: .3s;
+ color: #fff;
+}
+
+.register-button:hover {
+ border: 1px solid #444444;
+ background-color: transparent;
+ color: #444444;
+}
+
+.register-button:focus {
+ box-shadow: 0px 0px 0px 5px rgba(20, 87, 244, 0.37), 0px 0px 0px 10px rgba(20, 87, 244, 0.38);
+ outline: none;
+}
+
+
+/* **************************************************************************************************
+=============================== MAIN PAGE,TEXT, FORM RESPONSIVESNESS ===============================
+************************************************************************************************** */
+
+/* ===/ - RESPONSIVENESS - /=== */
+@media screen and (max-width: 992px) {
+  .form-bg {
+    height: 100vh !important;
+    background-attachment: fixed;
+  }
+  .form-bg .text-register {
+    font-size: 2.5rem;
+  }
+
+  .form-bg .beside-left {
+    position: static;
+  }
+
+  .text-line {
+    position: fixed !important;
+    top: 25%;
+    left: 9%;
+  }
+}
+
+@media only screen and (max-width: 912px) and (max-height: 1368px) {
+  .form-bg {
+    display: flex !important;
+    align-items: center;
+  }
+  .text-line {
+    top: 40%;
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 809px) {
+  .form-bg .text-register {
+    font-size: 2.5rem;
+  }
+
+  .form-bg {
+    height: auto !important;
+  }
+
+  .text-line {
+    position: fixed !important;
+    left: 03%;
+    bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-line {
+    top: 40%;
+  }
+  .form-bg {
+    height: 100vh !important;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .text-line {
+    position: static !important;
+    text-align: center;
+  }
+  .form-bg {
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .custom-height {
+    height: auto;
+    padding: 0.7rem;
+  }
+  .form-bg .beside-left {
+    position: static !important;
+  }
+  .btn2 .tooltiptext2 {
+    visibility: hidden;
+    width: 29rem;
+    height: 6rem;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1em;
+    position: absolute;
+    left: ;
+    bottom: -8em;
+    z-index: 1;
+    transition: 0.1s ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 540px) and (max-height: 720px) {
+  .form-bg {
+    display: block;
+    height: 120vh !important;
+    align-items: center !important;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .form-bg {
+    display: block;
+    height: 120vh !important;
+    align-items: center !important;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .form-bg{
+    padding: 30px;
+    height: 120vh !important;
+  }
+  .btn1 .tooltiptext1 {
+    visibility: hidden;
+    width: 8em;
+    height: 8em;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0px 3px 7px #ccc;
+    position: absolute;
+    left: 1.5em;
+    bottom: -12em;
+    z-index: 1;
+    transition: 0.1s ease-in-out;
+  }
+  .btn1 .tooltiptext2{
+        box-shadow: 0px 4px 7px #ccc;
+  }
+  .btn3 .tooltiptext3 {
+    visibility: hidden;
+    width: 18em;
+    height: 14em;
+    color: black;
+    text-align: center;
+    background-color: whitesmoke;
+    position: absolute;
+    left: -11.5em;
+    bottom: -17em;
+    box-shadow: 0px 3px 7px #ccc;
+    z-index: 1;
+    transition: 0.1s ease-in-out;
+  }
+}
+
+
+
+
+
