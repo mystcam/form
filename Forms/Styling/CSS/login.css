@@ -1,0 +1,104 @@
+
+/* *******************************************************
+==========================================================
+
+LOGIN PAGE FORM STYLING
+
+==========================================================
+*********************************w********************** */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Syne&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+  overflow-x: hidden !important;
+}
+
+
+input {
+  transition: all 0.2s linear !important;
+  color: #00a8db !important;
+}
+
+input:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #444444 !important;
+}
+
+
+
+.img-loginForm {
+  background-image: url("/Images/Login-images/login-picture.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.input-group {
+  position: relative;
+}
+
+.input-group label {
+  position: absolute;
+  top: -7px;
+  left: 18px;
+  padding: 1px 7px;
+  background-color: #444444;
+  color: white;
+  font-size: 10px;
+  line-height: 1;
+  border: 0px solid black;
+  transition: 0.2s;
+
+  pointer-events: none;
+}
+
+.input-group input[type="email"]::placeholder {
+  font-size: 13px;
+}
+
+.input-group input[type="email"]:focus + label {
+  top: -12px;
+  background-color: #444444;
+  line-height: 1;
+  
+  border: 0px solid black;
+  border-radius: 0;
+  color: white;
+}
+.input-group input[type="password"]::placeholder {
+  font-size: 13px;
+}
+
+.input-group input[type="password"]:focus + label {
+  top: -12px;
+  background-color: #444444;
+  line-height: 1;
+  
+  border: 0px solid black;
+  border-radius: 0;
+  color: white;
+}
+
+
+.form-group .btn-login{
+  background-color: #00a8db !important;
+  color: white;
+}
+
+
+.form-group .btn-login:hover{
+  background-color: #000 !important;
+  color: white;
+}
